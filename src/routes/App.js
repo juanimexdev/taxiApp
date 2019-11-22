@@ -4,6 +4,7 @@ import { createBrowserHistory } from 'history';
 import Splash from '../containers/Splash';
 import Login from '../containers/Login';
 import SignUp from '../containers/SignUp';
+import Home from '../containers/Home';
 
 const history = createBrowserHistory();
 const App = () => (
@@ -12,6 +13,7 @@ const App = () => (
       <Route exact path='/' component={Splash} />
       <Route exact path='/login' component={Login} />
       <Route exact path='/signup' component={SignUp} />
+      <Route exact path='/home' component={Home} />
     </Switch>
   </Router>
 );
