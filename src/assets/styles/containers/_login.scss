@@ -1,0 +1,52 @@
+@import "../App.scss";
+
+.login {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+
+  &__back {
+    width: 18px;
+    height: 17px;
+    margin-bottom: 32px;
+  }
+
+  &__title {
+    margin-bottom: 32px;
+  }
+
+  form {
+    margin: 16px 0px;
+  }
+
+  &__social-networks {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__social-title {
+    margin: 16px 0px;
+  }
+  &__network {
+    width: 85px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    &--facebook {
+      background-color: #3b5998;
+      color: white;
+    }
+
+    &--google {
+      background-color: #ffffff;
+    }
+    &--twitter {
+      background-color: #00aced;
+      color: white;
+    }
+  }
+}

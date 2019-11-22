@@ -12,14 +12,24 @@ button {
   width: 295px;
   height: 60px;
   border-radius: 10px;
-  background-color: #ffffff;
-  box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+  background-color: #ffca27;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
   margin: 8px 0px;
   font-size: 16px;
-  outline: non;
+  outline: none;
   &.--transparent {
     background-color: transparent;
   }
 }
 
-
+input[type="text"],
+input[type="password"] {
+  width: 315px;
+  height: 63px;
+  border-radius: 10px;
+  box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.08);
+  outline: none;
+  margin: 12px 0px;
+  border: none;
+  padding: 0px 18px;
+}
