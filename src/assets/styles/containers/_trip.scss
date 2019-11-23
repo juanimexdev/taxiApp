@@ -1,0 +1,37 @@
+@import "../App.scss";
+
+.home {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: orange;
+
+  &__map {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  &__map-info {
+    padding: 0px;
+    position: absolute;
+    z-index: 10;
+    height: 220px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0 -5px 15px 0 rgba(0, 0, 0, 0.05);
+    background-color: #fbf9f7;
+    bottom: 0px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  &__map-img {
+    margin-bottom: 20px;
+  }
+
+  &__map-row {
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: space-between;
+  }
+}

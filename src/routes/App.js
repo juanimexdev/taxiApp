@@ -6,6 +6,7 @@ import Login from '../containers/Login';
 import SignUp from '../containers/SignUp';
 import Home from '../containers/Home';
 import TaxiSelect from '../containers/TaxiSelect';
+import Trip from '../containers/Trip';
 
 const history = createBrowserHistory();
 const App = () => (
@@ -16,6 +17,7 @@ const App = () => (
       <Route exact path='/signup' component={SignUp} />
       <Route exact path='/home' component={Home} />
       <Route exact path='/taxiselect' component={TaxiSelect} />
+      <Route exact path='/trip' component={Trip} />
     </Switch>
   </Router>
 );
