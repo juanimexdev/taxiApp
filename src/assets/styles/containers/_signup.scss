@@ -5,7 +5,13 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 20px 30px;
+
+  h2 {
+    margin: 0px;
+    margin-left: 33%;
+    margin-bottom: 15px;
+  }
 
   &__back {
     width: 18px;
@@ -14,7 +20,6 @@
   }
   &__title {
     margin-bottom: 32px;
-    
   }
   &__subtitle {
     margin-bottom: 25px;
@@ -28,8 +33,14 @@
   }
 
   &__login {
-      color: $yellow;
-      font-weight: bold;
-      text-decoration: underline;
+    color: $yellow;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  &__img {
+    text-align: center;
+    width: 84px;
+    margin-left: 35%;
   }
 }
